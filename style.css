@@ -1,4 +1,45 @@
 body{
-  background-color: blue;
+  background-color: #ccc;
   font-family: 'Merriweather Sans', sans-serif;
+  margin: 20px 30px;
+  line-height: 1.2;
+}
+
+nav{
+  text-align: center;
+}
+
+a{
+  text-decoration:none;
+  font-size: 1.1rem;
+}
+
+
+a:link, a:visited {
+  color: #3d4c47;
+}
+
+a:hover{
+  color:red;
+}
+
+h1{
+  color: #FF0032;
+}
+
+.portfolio{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.portfolio img{
+  width: 100%;
+}
+
+footer{
+  font-size: 8px;
+  margin-top: 2rem;
+  text-align: center;
+  padding: 1rem;
 }
